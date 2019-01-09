@@ -1,5 +1,15 @@
 {
   "name": "rails_typescript_webpack",
   "private": true,
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "clean-webpack-plugin": "^1.0.0",
+    "source-map-loader": "^0.2.4",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.2.2",
+    "webpack": "^4.28.1",
+    "webpack-cli": "^3.2.1",
+    "webpack-livereload-plugin": "^2.2.0",
+    "webpack-manifest-plugin": "^2.0.4"
+  }
 }
