@@ -1,6 +1,10 @@
 {
   "name": "rails_typescript_webpack",
   "private": true,
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack -p"
+  },
   "dependencies": {},
   "devDependencies": {
     "clean-webpack-plugin": "^1.0.0",
